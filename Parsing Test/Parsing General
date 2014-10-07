@@ -1,0 +1,15 @@
+inputString = raw_input('Enter String: ')
+delimiter = raw_input('Enter Delimiter: ')
+
+def Parse(string, delim):
+
+    parsedString = string.split(delim)
+    parseNum = len(parsedString)
+
+    print('Input: ' + string +'\n')
+    print('Parsed Sections:\n')
+
+    for i in range (0,parseNum):
+        print('Segment ' + str(i) + ': ' + str(parsedString[i]))
+
+Parse(inputString, delimiter)

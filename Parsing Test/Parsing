@@ -1,0 +1,12 @@
+inputString = raw_input('Enter String: ')
+
+parsedString = inputString.split(',')
+
+print('Input: ' + inputString +'\n')
+print('Parsed Sections:\n')
+print('1st section: ' + parsedString[0])
+print('2nd section: ' + parsedString[1])
+print('3rd section: ' + parsedString[2])
+print('4th section: ' + parsedString[3])
+print('5th section: ' + parsedString[4])
+print('6th section: ' + parsedString[5])
